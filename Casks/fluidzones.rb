@@ -4,8 +4,8 @@ cask "fluidzones" do
 
   url "https://github.com/yavallejo/fluidzones-releases/releases/download/v#{version}/FluidZones-#{version}-arm64.dmg"
   name "FluidZones"
-  desc "macOS workspace launcher — open your full context with one keypress"
-  homepage "https://fluidzones.com"
+  desc "Workspace launcher — open your full context with one keypress"
+  homepage "https://fluidzones.com/"
 
   depends_on macos: :sonoma
   depends_on arch: :arm64
