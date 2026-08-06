@@ -7,7 +7,7 @@ cask "fluidzones" do
   desc "macOS workspace launcher — open your full context with one keypress"
   homepage "https://fluidzones.com"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
   depends_on arch: :arm64
 
   app "FluidZones.app"
