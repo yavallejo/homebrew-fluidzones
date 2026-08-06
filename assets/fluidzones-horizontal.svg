@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 64" role="img" aria-labelledby="hz-title">
+  <title id="hz-title">FluidZones</title>
+  <defs>
+    <linearGradient id="bgh-amber" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FF9A4D"/>
+      <stop offset="100%" stop-color="#C73700"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="2" y="4" width="56" height="56" rx="13" fill="#171310"/>
+  <rect x="10.6" y="13.8" width="21" height="36.4" rx="3.3" fill="url(#bgh-amber)"/>
+  <rect x="34.4" y="13.8" width="14.9" height="16.6" rx="2.6" fill="#cba6f7"/>
+  <rect x="34.4" y="33.6" width="14.9" height="16.6" rx="2.6" fill="#F3F1EF"/>
+
+  <text x="72" y="40"
+        font-family="'Bricolage Grotesque', Georgia, serif"
+        font-weight="700"
+        font-size="26"
+        letter-spacing="-0.5"
+        fill="#1a0e08">FluidZones</text>
+</svg>
