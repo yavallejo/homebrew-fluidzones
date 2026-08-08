@@ -1,6 +1,6 @@
 cask "fluidzones" do
-  version "1.0.2"
-  sha256 "f73a79343cff9c6cf0492641cacdba9cfb894f47caea715f7e20549adadeb356"
+  version "1.0.3"
+  sha256 "90ab1399499fd70d7ba654558830ffd73bac3f2de8e7a3c78d258ec162ce7fe8"
 
   url "https://github.com/yavallejo/fluidzones-releases/releases/download/v#{version}/FluidZones-#{version}-arm64.dmg"
   name "FluidZones"
