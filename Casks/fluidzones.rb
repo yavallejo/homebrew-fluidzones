@@ -1,13 +1,13 @@
 cask "fluidzones" do
-  version "1.10.1"
-  sha256 "d44ed1439a4913007a47608a24a0ecb29ee360f0d5c9c125c51d88e5d64e87ac"
+  version "1.11.0"
+  sha256 "35e36a6d028abf73ab134add71e105c7b2be3517fe0386a6198ec3ed47c21592"
 
   url "https://github.com/yavallejo/fluidzones-releases/releases/download/v#{version}/FluidZones-#{version}-arm64.dmg"
   name "FluidZones"
   desc "Workspace launcher — open your full context with one keypress"
   homepage "https://fluidzones.com/"
 
-  depends_on macos: :sonoma
+  depends_on macos: :sequoia
   depends_on arch: :arm64
 
   app "FluidZones.app"
